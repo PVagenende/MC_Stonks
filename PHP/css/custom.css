@@ -1,0 +1,62 @@
+#resultbox:hover, .itemsearch:hover, .usersearch:hover {
+    cursor: pointer;
+}
+.searchresult {
+    border-radius: 5px;
+}
+
+.searchresult:hover {
+    background: rgb(135,171,99);
+    background: linear-gradient(90deg, rgb(135, 171, 99) 0%, rgba(135,171,99,0.6054622532606793) 52%, rgb(255, 255, 255) 100%);
+}
+
+.card {
+    box-shadow: 5px 5px 5px gray;
+}
+
+.card-text {
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.card-text .big {
+    float: right;
+}
+
+.card-text .small {
+    font-size: 1.5vh;
+    float: right;
+}
+
+.searchresult {
+    padding-left: 5%;
+}
+
+.header-img {
+    display: block;
+    margin: auto;
+}
+
+.wrapper {
+    max-width: 768px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #747980;
+    border-color: #666;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #87ab63;
+    border-color: #68844c;
+}
+
+.skin {
+    display: inline-block;
+    position: absolute;
+    float: left;
+    margin-left: 5%;
+    margin-top: -5%;
+}

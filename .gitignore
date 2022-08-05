@@ -1,0 +1,7 @@
+# User-specific stuff
+Python/.idea/**
+Python/setup/**
+Python/test/**
+Python/venv/**
+PHP/.idea/**
+
