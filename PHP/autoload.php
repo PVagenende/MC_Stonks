@@ -1,12 +1,15 @@
 <?
 
 $pth = explode("/",$_SERVER['SCRIPT_FILENAME']);
+$removed = array_pop($pth);
+$path = "";
+
 foreach ($pth as $section)
 {
     if(strlen($section)>0)
-        $path =  $path . "/" . $section;
-    if($section == "Stonks")
-        break;
+    {
+        $path = $path ."/".$section;
+    }
 }
 
 
