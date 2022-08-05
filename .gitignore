@@ -3,5 +3,6 @@ Python/.idea/**
 Python/setup/**
 Python/test/**
 Python/venv/**
+Python/modules/__pycache__/**
 PHP/.idea/**
 
