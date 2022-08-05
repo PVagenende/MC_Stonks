@@ -1,6 +1,6 @@
 # Updated Stonks
 
-#Usage of the python part
+#Usage of the python part  
 ###Main.py  
 This is the main worker of the script that collects all stats and uploads them to the database.
 It has been build to preform minimal operations and ignore any unneeded actions (f.e. updating records of a player that hasn't played)  
@@ -51,7 +51,7 @@ ALTER TABLE `users` ADD PRIMARY KEY (`UUID`(36));
 
 INSERT INTO `stat_types` (`ID`, `descr`, `friendly`, `total`, `top`) VALUES (NULL, 'mined', 'Mined', '0', ''), (NULL, 'crafted', 'Crafted', '0', '');
 
-#Configuration options for /Python/config.ini
+#Configuration options for /Python/config.ini  
 ###[LOG]  
 **log_level**  
 Possible values are 50 (Critical), 40 (Error), 30 (Warning), 20 (Info), 10 (Debug).  
